@@ -1,19 +1,23 @@
-set nocompatible
-syntax on
-set cc=79
-set t_Co=16
 colorscheme desert
-set laststatus=2
-set number
-set cursorline
-set wildmenu
-set showmatch
-filetype plugin indent on
+set t_Co=16                 " limit vim to 16 colours
 
-" show existing tab with 4 spaces width
-set tabstop=4
-set softtabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
+syntax enable               " enable syntax highlighting
+
+set tabstop=4               " number of visual spaces per TAB
+set softtabstop=4           " number of spaces in tab when editing
+set expandtab               " tabs = spaces
+
+set number                  " enable line numbers
+set showcmd                 " show command in statusline
+set cursorline              " highlight line under cursor
+
+filetype indent on          " load filetype indent files
+set wildmenu                " enable visual autocomplete in commands
+set showmatch               " highlight matching breackets etc
+
+set incsearch               " search during entry
+set hlsearch                " highlight search matches
+
+" move vertically by wrapped line
+nnoremap j gj
+nnoremap k gk
