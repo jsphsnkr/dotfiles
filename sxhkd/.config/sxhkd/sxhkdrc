@@ -1,4 +1,4 @@
-# 
+#
 # terminal emulator
 super + Return
 	urxvt
@@ -19,7 +19,6 @@ super + Print
 super + BackSpace
 	pcmanfm
 
-# volume controls x3
 XF86AudioLowerVolume
     amixer set Master 3dB- unmute
 
@@ -29,157 +28,62 @@ XF86AudioRaiseVolume
 XF86AudioMute
     amixer set Master toggle
 
-# XF86AudioPlay
+#XF86AudioPlay
 super + 9
     mpc toggle
 
-# XF86AudioNext
+#XF86AudioNext
 super + 0
     mpc next
 
-# XF86AudioPrev
+#XF86AudioPrev
 super + 8
     mpc prev
 
-# raise brightness
 XF86MonBrightnessUp
     xbacklight +20
 
-# lower brightness
 XF86MonBrightnessDown
     xbacklight -20
 
 #
-# bspwm hotkeys
+# wmutils binds
 #
 
-# gaps resizing
-super + equal
-    bspc config window_gap $((`bspc config window_gap` - 10))
+# close window
+super + w
+    killw $(pfw)
 
-super + minus
-    bspc config window_gap $((`bspc config window_gap` + 10))
-
-# quit bspwm normally
-super + alt + Escape
-	bspc quit
-
-# close and kill
-super + {_,shift + }w
-	bspc node -{c,k}
-
-# alternate between the tiled and monocle layout
-super + m
-	bspc desktop -l next
-
-# if the current node is automatic, send it to the last manual, otherwise pull the last leaf
-super + y
-	bspc query -N -n focused.automatic && bspc node -n last.!automatic || bspc node last.leaf -n focused
-
-# swap the current node and the biggest node
-super + g
-	bspc node -s biggest
-
-#
-# state/flags
-#
-
-# set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-
-# set the node flags
-super + ctrl + {x,y,z}
-	bspc node -g {locked,sticky,private}
-
-#
-# focus/swap
-#
-
-# focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
-
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
-
-# focus the next/previous node
-super + {_,shift + }c
-	bspc node -f {next,prev}
-
-# focus the next/previous desktop
-super + bracket{left,right}
-	bspc desktop -f {prev,next}
-
-# focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
-
-# focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
-
-# focus or send to the given desktop
-super + {_,shift + }{1-5}
-	bspc {desktop -f,node -d} '^{1-5}' 
-
-#
-# preselect
-#
-
-# preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-# preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-#
-# resize tiled/floating
-#
-
-# expand the tiled space in the given direction
-super + alt + {h,j,k,l}
-	bspc node {@west -r -10,@south -r +10,@north -r -10,@east -r +10}
-
-# contract the tiled space in the given direction
-super + alt + shift + {h,j,k,l}
-	bspc node {@east -r -10,@north -r +10,@south -r -10,@west -r +10}
-
-# move a floating window
+# move windows around
 super + {Left,Down,Up,Right}
-	xdo move {-x -20,-y +20,-y -20,-x +20}
+    wmv {-20 0, - 20, 0 -20, 20 0} $(pfw)
 
-#
-# pointer focus/move/resize
-#
+# resize windows
+super + shift + {Left,Down,Up,Right}
+    wrs {-20 0, - 20, 0 -20, 20 0} $(pfw)
 
-# focus
-~button1
-	bspc pointer -g focus
+# snap windows to corners
+super + {y,u,b,n}
+    snap {tl,tr,bl,br}
 
-# start move/resize
-super + button{1-3}
-	; bspc pointer -g {move,resize_side,resize_corner}
+# focus closest window in cardinal direction
+super + {h,j,k,l}
+    clst {east,south,north,west}
 
-# end move/resize
-super + @button{1-3}
-	bspc pointer -u
+# cycle windows
+super + shift + Tab
+    fcs prev        
+super + Tab
+    fcs next
 
-#
-# manual mode
-#
-super + ctrl + {h,j,k,l}
-    bspc window -p {left,down,up,right}
+# toggle groups' visibility
+super + {1,2,3,4,5}
+    grps -M {1,2,3,4,5}
+
+# add window to a group
+super + shift + {1,2,3,4,5}
+    grps -s $(pfw) {1,2,3,4,5}
+
+# remove window from all groups
+super + r
+    grps -c $(pfw)
