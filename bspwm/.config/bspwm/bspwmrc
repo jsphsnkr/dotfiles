@@ -21,6 +21,7 @@ bspc config focus_follows_pointer true
 
 bspc rule -a Screenkey manage=off
 #bspc rule -a URxvt state=floating
+bspc rule -a Xarchiver state=floating
 
 synclient TapButton1=1
 

@@ -25,26 +25,23 @@ URxvt.matcher.button: 1
 *.color9:       #cccccc
 
 ! green
-*.color2:       #a5c261
-*.color10:      #a5c261
+*.color2:       #a5c288
+*.color10:      #a5c288
 
 ! yellow
-*.color3:       #f7a251
-*.color11:      #f7a251
+*.color3:       #f7e494
+*.color11:      #f7d094
 
 ! blue
-*.color4:       #6d9cbe
-*.color12:      #6d9cbe
+*.color4:       #86b4bf
+*.color12:      #86b4bf
 
 ! magenta
-*.color5:       #b6b3eb
-*.color13:      #b6b3eb
+*.color5:       #a4a4eb
+*.color13:      #a4a4eb
 
 ! cyan
-*.color6:       #d47dac
-*.color14:      #d47dac
+*.color6:       #d494b8
+*.color14:      #d494b8
 
-! white
-*.color7:       #e6e1dc
-*.color15:      #f9f7f3
 
