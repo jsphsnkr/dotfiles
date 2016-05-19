@@ -9,40 +9,41 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 8
+urxvt.internalBorder: 16
+
 ! special
-*.foreground:   #525252
-*.background:   #e8e8ea
-*.cursorColor:  #aaaaaa
+*.foreground:   #d0c8c6
+*.background:   #3b3228
+*.cursorColor:  #d0c8c6
 
 ! black
-*.color0:       #707070
-*.color8:       #909090
+*.color0:       #3b3228
+*.color8:       #7e705a
 
 ! red
-*.color1:       #cf4c66
-*.color9:       #cf4c66
+*.color1:       #cb6077
+*.color9:       #cb6077
 
 ! green
-*.color2:       #6fbe75
-*.color10:      #6fbe75
+*.color2:       #beb55b
+*.color10:      #beb55b
 
 ! yellow
-*.color3:       #d2a85c
-*.color11:      #d2a85c
+*.color3:       #f4bc87
+*.color11:      #f4bc87
 
 ! blue
-*.color4:       #586ca7
-*.color12:      #586ca7
+*.color4:       #8ab3b5
+*.color12:      #8ab3b5
 
 ! magenta
-*.color5:       #6f76be
-*.color13:      #6f76be
+*.color5:       #a89bb9
+*.color13:      #a89bb9
 
 ! cyan
-*.color6:       #6fbeb7
-*.color14:      #6fbeb7
+*.color6:       #7bbda4
+*.color14:      #7bbda4
 
 ! white
-*.color7:       #aaaaaa
-*.color15:      #c2c2c2
+*.color7:       #d0c8c6
+*.color15:      #f5eeeb

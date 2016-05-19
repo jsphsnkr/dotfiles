@@ -54,7 +54,7 @@ XF86MonBrightnessDown
 #
 
 # close window
-super + w
+super +  shift + w
     killw $(pfw)
 
 # move windows around

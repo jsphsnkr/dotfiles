@@ -1,4 +1,4 @@
-colorscheme dawn
+colorscheme delek
 set t_Co=16                 " limit vim to 16 colours
 
 syntax enable               " enable syntax highlighting
