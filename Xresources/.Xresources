@@ -1,5 +1,3 @@
-!*.font:		xft: Liberation Mono:pixelsize=12 
-
 *.font:         xft:Terminus:pixelsize=12
 
 urxvt.scrollBar:	false
@@ -11,37 +9,40 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
+urxvt.internalBorder: 8
 ! special
-*.foreground:   #e6e1dc
-*.background:   #2b2b2b
-*.cursorColor:  #e6e1dc
+*.foreground:   #525252
+*.background:   #e8e8ea
+*.cursorColor:  #aaaaaa
 
 ! black
-*.color0:       #2b2b2b
-*.color8:       #666666
+*.color0:       #707070
+*.color8:       #909090
 
 ! red
-*.color1:       #cccccc
-*.color9:       #cccccc
+*.color1:       #cf4c66
+*.color9:       #cf4c66
 
 ! green
-*.color2:       #a5c288
-*.color10:      #a5c288
+*.color2:       #6fbe75
+*.color10:      #6fbe75
 
 ! yellow
-*.color3:       #f7e494
-*.color11:      #f7d094
+*.color3:       #d2a85c
+*.color11:      #d2a85c
 
 ! blue
-*.color4:       #86b4bf
-*.color12:      #86b4bf
+*.color4:       #586ca7
+*.color12:      #586ca7
 
 ! magenta
-*.color5:       #a4a4eb
-*.color13:      #a4a4eb
+*.color5:       #6f76be
+*.color13:      #6f76be
 
 ! cyan
-*.color6:       #d494b8
-*.color14:      #d494b8
+*.color6:       #6fbeb7
+*.color14:      #6fbeb7
 
-
+! white
+*.color7:       #aaaaaa
+*.color15:      #c2c2c2

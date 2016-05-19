@@ -1,11 +1,14 @@
-#
+# sxhkdrc
+# wmutils specific
+# 
+
 # terminal emulator
 super + Return
 	urxvt
 
 # program launcher
 super + space
-	dmenu_run -b -nb '#2b2b2b' -nf '#e6e1dc' -sb '#e6e1dc' -sf '#2b2b2b' -fn "Terminus:pixelsize=12"
+	dmenu_run -b -nb '#e8e8ea' -nf '#525252' -sb '#525252' -sf '#e8e8ea' -fn "Terminus:pixelsize=12"
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -1,4 +1,4 @@
-colorscheme murphy
+colorscheme dawn
 set t_Co=16                 " limit vim to 16 colours
 
 syntax enable               " enable syntax highlighting
