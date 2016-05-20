@@ -42,8 +42,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>1977-Red</name>
-    <titleLayout>MC</titleLayout>
+    <name>yellow</name>
+    <titleLayout/>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -158,10 +158,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>0</top>
-    <bottom>0</bottom>
-    <left>0</left>
-    <right>0</right>
+    <top>20</top>
+    <bottom>20</bottom>
+    <left>20</left>
+    <right>20</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -300,6 +300,26 @@
         <bottom>20</bottom>
       </action>
     </keybind>
+    <keybind key="C-A-Left">
+      <action name="MoveToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="C-A-Right">
+      <action name="MoveToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+    <keybind key="C-A-Up">
+      <action name="MoveToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+    <keybind key="C-A-Down">
+      <action name="MoveToEdge">
+        <direction>south</direction>
+      </action>
+    </keybind>
     <keybind key="W-e">
       <action name="ToggleOmnipresent"/>
     </keybind>
@@ -333,7 +353,7 @@
     </keybind>
     <keybind key="W-d">
       <action name="Execute">
-        <command>dmenu_run</command>
+        <command>dmenu_run -b -nb '#3b3228' -nf '#d0c8c6' -sb '#cb6077' -sf '#3b3228' -fn "Terminus:pixelsize=12"</command>
       </action>
     </keybind>
     <keybind key="W-c">
@@ -398,15 +418,6 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
-      </action>
-    </keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
@@ -870,9 +881,9 @@
 
   # end of the example
 -->
-  <!-- match all windows, and remove their decorations -->
-  <application class="*">
-    <decor>yes</decor>
-  </application>
+    <!-- match all windows, and remove their decorations -->
+    <application class="*">
+      <decor>yes</decor>
+    </application>
   </applications>
 </openbox_config>
