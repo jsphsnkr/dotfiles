@@ -319,6 +319,26 @@
       <action name="MoveToEdge">
         <direction>south</direction>
       </action>
+     </keybind>
+     <keybind key="W-A-Left">
+      <action name="GrowToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Right">
+      <action name="GrowToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Up">
+      <action name="GrowToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Down">
+      <action name="MoveToEdge">
+        <direction>south</direction>
+      </action>
     </keybind>
     <keybind key="W-e">
       <action name="ToggleOmnipresent"/>
@@ -353,7 +373,7 @@
     </keybind>
     <keybind key="W-d">
       <action name="Execute">
-        <command>dmenu_run -b -nb '#3b3228' -nf '#d0c8c6' -sb '#cb6077' -sf '#3b3228' -fn "Terminus:pixelsize=12"</command>
+        <command>dmenu_run -nb '#1e1e1e' -nf '#a7a7a7' -sb '#cf6a4c' -sf '#1e1e1e' -fn "Terminus:pixelsize=12"</command>
       </action>
     </keybind>
     <keybind key="W-c">
