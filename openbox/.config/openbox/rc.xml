@@ -319,8 +319,8 @@
       <action name="MoveToEdge">
         <direction>south</direction>
       </action>
-     </keybind>
-     <keybind key="W-A-Left">
+    </keybind>
+    <keybind key="W-A-Left">
       <action name="GrowToEdge">
         <direction>west</direction>
       </action>
@@ -336,7 +336,7 @@
       </action>
     </keybind>
     <keybind key="W-A-Down">
-      <action name="MoveToEdge">
+      <action name="GrowToEdge">
         <direction>south</direction>
       </action>
     </keybind>

@@ -2,7 +2,7 @@
 
 *.font:         xft:Terminus:pixelsize=12
 
-!*.font:         xft:Dejavu Sans Mono:pixelsize=11:antialias=true
+!*.font:         xft:ProggySquareTTSZ:size=12
 
 urxvt.scrollBar:	false
 !urxvt.letterSpace:	-2
