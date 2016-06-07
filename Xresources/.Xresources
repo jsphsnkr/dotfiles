@@ -1,38 +1,46 @@
-#include </home/spinks/.colours>
-
-*.font:         xft:Terminus:pixelsize=12
-
-!*.font:         xft:ProggySquareTTSZ:size=12
-
+*.font:        -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 urxvt.scrollBar:	false
-!urxvt.letterSpace:	-2
-
-!Xft.rgba:       none
 
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 16
+urxvt.internalBorder: 10
 
-! Colors
-*.background:   bg
-*.foreground:   fg
-*.cursorColor:  cyn
+! special
+*.foreground:   #000000
+*.background:   #e8e8ea
+*.cursorColor:  #000000
 
-*.color0:      blk
-*.color8:      bblk
-*.color1:      red
-*.color9:      red
-*.color2:      grn
-*.color10:     grn
-*.color3:      ylw
-*.color11:     ylw
-*.color4:      blu
-*.color12:     blu
-*.color5:      mag
-*.color13:     mag
-*.color6:      cyn
-*.color14:     cyn
-*.color7:      wht
-*.color15:     wht
+! black
+*.color0:       #202020
+*.color8:       #202020
+
+! red
+*.color1:       #000000
+*.color9:       #000000
+
+! green
+*.color2:       #0ba5de
+*.color10:      #0ba5de
+
+! yellow
+*.color3:       #262626
+*.color11:      #262626
+
+! blue
+*.color4:       #606060
+*.color12:      #606060
+
+! magenta
+*.color5:       #f77e0e
+*.color13:      #f77e0e
+
+! cyan
+*.color6:       #4a4a4a
+*.color14:      #4a4a4a
+
+! white
+*.color7:       #aaaaaa
+*.color15:      #aaaaaa
+

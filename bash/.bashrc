@@ -115,3 +115,5 @@ fi
 
 # added by Anaconda2 4.0.0 installer
 export PATH="/home/spinks/anaconda2/bin:$PATH"
+
+export PATH="$PATH:/home/spinks/bin"
