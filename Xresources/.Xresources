@@ -28,8 +28,8 @@ urxvt.letterSpace: -2
 *.color8:       #766e6b
 
 ! red
-*.color1:       #f22c40
-*.color9:       #f22c40
+*.color1:       #cd2536
+*.color9:       #cd2536
 
 ! green
 *.color2:       #5ab738

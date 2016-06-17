@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sxhkd -c ~/.config/sxhkd/sxhkdrc_wmutils &
+
+#feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png &
+
+focus_watcher.sh &
+
+exec urxvt 

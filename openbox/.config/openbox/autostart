@@ -1,2 +1,5 @@
 bash ~/.mon_check
-feh --bg-scale Pictures/wallpaper/owl.jpg
+
+xsetroot -solid "#cccccc"
+
+szyslak &

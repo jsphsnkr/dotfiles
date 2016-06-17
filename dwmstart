@@ -2,9 +2,9 @@
 
 synclient tapButton1=1 &
 
-#xsetroot -solid "#282828"
+xsetroot -solid "#cccccc"
 
-feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png
+#feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png
 
 #dropbox start &
 
