@@ -1,9 +1,14 @@
 #! /bin/bash
 
-sxhkd -c ~/.config/sxhkd/sxhkdrc_wmutils &
+sxhkd &
 
 #feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png &
 
+szyslak &
+
 focus_watcher.sh &
 
-exec urxvt 
+synclient tapButton1=1 &
+synclient tapButton2=3 &
+
+exec xwait

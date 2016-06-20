@@ -9,7 +9,7 @@ set expandtab               " tabs = spaces
 
 set number                  " enable line numbers
 set showcmd                 " show command in statusline
-set cursorline              " highlight line under cursor
+"set cursorline              " highlight line under cursor
 
 filetype indent on          " load filetype indent files
 set wildmenu                " enable visual autocomplete in commands
@@ -17,6 +17,8 @@ set showmatch               " highlight matching breackets etc
 
 set incsearch               " search during entry
 set hlsearch                " highlight search matches
+
+set lazyredraw              " stop all the redrawin'
 
 " move vertically by wrapped line
 nnoremap j gj

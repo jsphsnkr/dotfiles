@@ -2,16 +2,11 @@
 
 synclient tapButton1=1 &
 
-xsetroot -solid "#cccccc"
-
-#feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png
+feh --bg-tile Pictures/wallpaper/ele.png
 
 #dropbox start &
 
-# statusbar loop
-while true; do
-    xsetroot -name "$( cat /sys/class/power_supply/BAT1/capacity )% | $( date +"%a %R")"
-    sleep 1m
-done &
+# bar info
+szyslak &
 
 exec dwm
