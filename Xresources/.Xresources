@@ -1,4 +1,3 @@
-!*.font:        -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*, xft:FontAwesome:size=12
 Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
@@ -7,7 +6,10 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:         xft:Dejavu Sans Mono:size=9:antialias=true:hinting=true
+*.font:         xft:Envy Code R:size=9:antialias=true:hinting=true
+
+!*.font:         -*-unifont-*-*-*-*-16-*-*-*-*-*-*-*
+
 urxvt.scrollBar:	false
 
 URxvt.perl-ext-common: default,matcher
@@ -16,41 +18,32 @@ URxvt.matcher.button: 1
 
 urxvt.internalBorder: 10
 
-urxvt.letterSpace: -2
+urxvt.letterSpace: -1
 
-! special
-*.foreground:   #68615e
+*.foreground:   #545855
 *.background:   #e8e8ea
-*.cursorColor:  #68615e
-
+*.cursorColor:  #545855
 ! black
-*.color0:       #1b1918
-*.color8:       #766e6b
-
-! red
-*.color1:       #cd2536
-*.color9:       #cd2536
-
-! green
-*.color2:       #5ab738
-*.color10:      #5ab738
-
+*.color0:       #3c3e3c
+*.color8:       #545855
+! red 
+*.color1:       #ac4c64
+*.color9:       #ac4c64
+! green 
+*.color2:       #4cac64
+*.color10:      #4cac64
 ! yellow
-*.color3:       #d5911a
-*.color11:      #d5911a
-
+*.color3:       #ac8b4c
+*.color11:      #ab894b
 ! blue
-*.color4:       #407ee7
-*.color12:      #407ee7
-
+*.color4:       #4c64ac
+*.color12:      #4c64ac
 ! magenta
-*.color5:       #6666ea
-*.color13:      #6666ea
-
+*.color5:       #a04bab
+*.color13:      #a04bab
 ! cyan
-*.color6:       #00ad9c
-*.color14:      #00ad9c
-
+*.color6:       #4b96ab
+*.color14:      #4b96ab
 ! white
-*.color7:       #a8a19f
-*.color15:      #e8e8ea
+*.color7:       #aaaaaa
+*.color15:      #aaaaaa

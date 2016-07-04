@@ -2,13 +2,15 @@
 
 sxhkd &
 
-#feh --bg-tile Pictures/wallpaper/tiles/cheap_diagonal_fabric.png &
+feh --bg-scale Pictures/wallpaper/mono-leaf.jpg &
 
-szyslak &
+while :; do
+    batty
+    sleep 30
+done &
 
 focus_watcher.sh &
 
 synclient tapButton1=1 &
-synclient tapButton2=3 &
 
 exec xwait

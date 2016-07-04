@@ -20,7 +20,7 @@ super + Print
 
 # now playing (cmus)
 super + n
-    poppy $(npcmus)
+    npcmus
 
 super + 0
     cmus-remote -n
@@ -36,6 +36,18 @@ super + equal
 
 super + minus
     amixer set Master 3dB- unmute
+
+XF86MonBrightnessUp
+    xbacklight +20
+
+XF86MonBrightnessDown
+    xbacklight -20
+
+super + BackSpace
+    poppy $(date '+%a %H%M')
+
+super + p
+    scrot -u -b
 
 #
 # wmutils

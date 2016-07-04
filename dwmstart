@@ -2,7 +2,7 @@
 
 synclient tapButton1=1 &
 
-feh --bg-tile Pictures/wallpaper/ele.png
+feh --bg-scale Pictures/wallpaper/mono-leaf.jpg &
 
 #dropbox start &
 
