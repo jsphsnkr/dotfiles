@@ -1,3 +1,5 @@
+#include "/home/spinks/colours/leaf"
+
 Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
@@ -6,9 +8,8 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:         xft:Envy Code R:size=9:antialias=true:hinting=true
-
-!*.font:         -*-unifont-*-*-*-*-16-*-*-*-*-*-*-*
+*.font:         -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+*.boldFont:     -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
 
 urxvt.scrollBar:	false
 
@@ -16,34 +17,41 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 10
+urxvt.internalBorder: 4
 
-urxvt.letterSpace: -1
+! special
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  cyn
 
-*.foreground:   #545855
-*.background:   #e8e8ea
-*.cursorColor:  #545855
 ! black
-*.color0:       #3c3e3c
-*.color8:       #545855
-! red 
-*.color1:       #ac4c64
-*.color9:       #ac4c64
-! green 
-*.color2:       #4cac64
-*.color10:      #4cac64
+*.color0:       blk
+*.color8:       bblk
+
+! red
+*.color1:       red
+*.color9:       red
+
+! green
+*.color2:       grn
+*.color10:      grn
+
 ! yellow
-*.color3:       #ac8b4c
-*.color11:      #ab894b
+*.color3:       ylw
+*.color11:      ylw
+
 ! blue
-*.color4:       #4c64ac
-*.color12:      #4c64ac
+*.color4:       blu
+*.color12:      blu
+
 ! magenta
-*.color5:       #a04bab
-*.color13:      #a04bab
+*.color5:       mag
+*.color13:      mag
+
 ! cyan
-*.color6:       #4b96ab
-*.color14:      #4b96ab
+*.color6:       cyn
+*.color14:      cyn
+
 ! white
-*.color7:       #aaaaaa
-*.color15:      #aaaaaa
+*.color7:       wht
+*.color15:      wht

@@ -2,10 +2,10 @@
 
 sxhkd &
 
-feh --bg-scale Pictures/wallpaper/mono-leaf.jpg &
+feh --bg-scale Pictures/wallpaper/coffee.jpg &
 
 while :; do
-    batty
+    homer
     sleep 30
 done &
 

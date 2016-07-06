@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + space
-	dmenu_run -fn "xft:Dejavu Sans Mono:size=9:antialias=true:hinting=true" -nb "#cccccc" -nf "#68615e" -sb "#cccccc" -sf "#1b1918"
+    dmenu_wrapper
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -18,36 +18,46 @@ super + Escape
 super + Print
     scrot
 
-# now playing (cmus)
+# take shot of focused window
+super + p
+    scrot -u -b
+
+# now playing popup (cmus)
 super + n
-    npcmus
+    poppy $(murphy)
 
+# next track
 super + 0
-    cmus-remote -n
+    murphy +
 
+# prev track
 super + 8
-    cmus-remote -r
+    murphy -
 
+# pause/play
 super + 9
-    cmus-remote -u
+    murphy =
 
+# volup
 super + equal
-    amixer set Master 3dB+ unmute
+    libby +
 
+# voldn
 super + minus
-    amixer set Master 3dB- unmute
+    libby -
 
+# brightness up
 XF86MonBrightnessUp
     xbacklight +20
 
+# brightness down
 XF86MonBrightnessDown
     xbacklight -20
 
+# clock popup
 super + BackSpace
-    poppy $(date '+%a %H%M')
+    poppy $(date '+%a %H:%M')
 
-super + p
-    scrot -u -b
 
 #
 # wmutils
@@ -62,8 +72,8 @@ alt + {h,j,k,l}
     wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
 
 # snap to corners
-alt + {y,u,b,n,g}
-    corner.sh {tl,tr,bl,br,md} $(pfw)
+alt + {y,u,b,n,g,c}
+    corner.sh {tl,tr,bl,br,md,mm} $(pfw)
 
 # resize windows
 alt + shift + {h,j,k,l}
@@ -78,12 +88,12 @@ super + {h,j,k,l}
     closest.sh {h,j,k,l}
 
 # add window to group
-super + shift + {1,2,3,4,5}
-    groups.sh -s $(pfw) {1,2,3,4,5}
+super + shift + {1,2,3,4}
+    groups.sh -s $(pfw) {1,2,3,4}
 
 # toggle group visibility
-super + {1,2,3,4,5}
-    groups.sh -t {1,2,3,4,5}
+super + {1,2,3,4}
+    groups.sh -t {1,2,3,4}
 
 # remove window from all groups
 super + slash
@@ -93,6 +103,7 @@ super + slash
 super + f
     fullscreen.sh $(pfw)
 
-# tile ala dwm
-super + t
-    tile.sh
+# tile ala dwm, arg is %screenwidth of master
+alt + control + {1,2,3,4,5,6,7,8,9}
+    atile.sh {10,20,30,40,50,60,70,80,90}
+    
