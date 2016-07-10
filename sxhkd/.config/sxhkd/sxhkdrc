@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# kill X
+super + shift + q
+    killx
+
 # terminal emulator
 super + Return
 	urxvt
@@ -72,8 +76,8 @@ alt + {h,j,k,l}
     wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
 
 # snap to corners
-alt + {y,u,b,n,g,c}
-    corner.sh {tl,tr,bl,br,md,mm} $(pfw)
+alt + {y,u,b,n,g,c,m}
+    corner.sh {tl,tr,bl,br,md,mm,mx} $(pfw)
 
 # resize windows
 alt + shift + {h,j,k,l}

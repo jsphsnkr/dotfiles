@@ -2,7 +2,7 @@
 
 sxhkd &
 
-feh --bg-scale Pictures/wallpaper/coffee.jpg &
+feh --bg-scale Pictures/wallpaper/streetsofrage.png &
 
 while :; do
     homer

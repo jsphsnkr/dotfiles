@@ -1,4 +1,4 @@
-#include "/home/spinks/colours/leaf"
+#include "/home/spinks/colours/conifer"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -8,8 +8,8 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:         -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
-*.boldFont:     -*-fixed-*-*-*-*-12-*-*-*-*-*-*-*
+*.font:         -*-neep-medium-*-semicondensed-*-11-*-*-*-*-*-*-*
+*.boldFont:     -*-neep-medium-*-semicondensed-*-11-*-*-*-*-*-*-*
 
 urxvt.scrollBar:	false
 
@@ -17,16 +17,16 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 4
+urxvt.internalBorder: 12
 
 ! special
 *.foreground:   fg
 *.background:   bg
-*.cursorColor:  cyn
+*.cursorColor:  blu
 
 ! black
-*.color0:       blk
-*.color8:       bblk
+*.color0:       bg
+*.color8:       fg
 
 ! red
 *.color1:       red
@@ -37,21 +37,21 @@ urxvt.internalBorder: 4
 *.color10:      grn
 
 ! yellow
-*.color3:       ylw
-*.color11:      ylw
+*.color3:       grn
+*.color11:      grn
 
 ! blue
 *.color4:       blu
 *.color12:      blu
 
 ! magenta
-*.color5:       mag
-*.color13:      mag
+*.color5:       blu
+*.color13:      blu
 
 ! cyan
-*.color6:       cyn
-*.color14:      cyn
+*.color6:       blu
+*.color14:      blu
 
 ! white
-*.color7:       wht
-*.color15:      wht
+*.color7:       fg
+*.color15:      fg
