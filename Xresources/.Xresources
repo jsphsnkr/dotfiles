@@ -1,4 +1,4 @@
-#include "/home/spinks/colours/conifer"
+#include "/home/spinks/colours/waterset"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -8,8 +8,11 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:         -*-neep-medium-*-semicondensed-*-11-*-*-*-*-*-*-*
-*.boldFont:     -*-neep-medium-*-semicondensed-*-11-*-*-*-*-*-*-*
+*.font:         -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+
+!*.font:         xft:Liberation Mono:size=9:antialias=true:hinting=true
+
+!urxvt.letterSpace: -2
 
 urxvt.scrollBar:	false
 
