@@ -1,13 +1,17 @@
 #! /bin/bash
 
-sxhkd &
+xset fp+ $HOME/.fonts
+xset fp rehash
 
-feh --bg-scale Pictures/wallpaper/streetsofrage.png &
+. $HOME/.wp
 
-while :; do
-    homer
-    sleep 30
-done &
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc.wmutils &
+
+feh --bg-scale $wp &
+
+homer &
+
+szyslak &
 
 focus_watcher.sh &
 

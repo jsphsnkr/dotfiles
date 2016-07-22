@@ -19,7 +19,7 @@ HISTFILESIZE=2000
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-PS1='>> '
+PS1='¬ '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in

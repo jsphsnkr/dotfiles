@@ -1,4 +1,4 @@
-#include "/home/spinks/colours/waterset"
+#include "/home/spinks/colours/snow"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -8,9 +8,9 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:         -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 
-!*.font:         xft:Liberation Mono:size=9:antialias=true:hinting=true
+*.font:         -*-yuki-*-*-*-*-*-*-*-*-*-*-*-*
+*.boldFont:         -*-yuki-*-*-*-*-*-*-*-*-*-*-*-*
 
 !urxvt.letterSpace: -2
 
@@ -20,7 +20,7 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 12
+urxvt.internalBorder: 8
 
 ! special
 *.foreground:   fg
