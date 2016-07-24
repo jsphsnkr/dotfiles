@@ -50,7 +50,7 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     xbacklight -20
 
-# clock popup
+# now plauing popup
 super + BackSpace
     poppy $(murphy)
 

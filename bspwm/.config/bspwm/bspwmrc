@@ -1,17 +1,8 @@
 #! /bin/bash
 
-xrdb merge $HOME/.Xresources
-
-setxkbmap gb
-
 sxhkd -c ~/.config/sxhkd/sxhkdrc.bspwm &
 
 . grabcolours.sh
-. $HOME/.wp
-
-feh --bg-scale $wp
-
-synclient tapButton1=1
 
 bspc monitor -d I II III IV  
 
@@ -24,7 +15,7 @@ bspc config window_gap              20
 
 bspc config normal_border_color     "#$fg"
 bspc config focused_border_color    "#$blu"
-bspc config presel_feedback_color   "#$blu"
+bspc config presel_feedback_color   "#$fg"
 
 #
 # Behaviour
