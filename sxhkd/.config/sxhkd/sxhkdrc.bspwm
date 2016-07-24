@@ -16,15 +16,11 @@ super + Escape
 
 # take a screenshot
 super + Print
-    scrot
+    scrot $HOME/img/scrot/scrot.png
 
 # take a shot of focused window
 super + p
     scrot -u -b
-
-# now playing popup
-super + n
-    poppy $(murphy)
 
 # next track
 super + 0
@@ -56,7 +52,12 @@ XF86MonBrightnessDown
 
 # clock popup
 super + BackSpace
-    poppy $(date '+%a %H:%M')
+    poppy $(murphy)
+
+# toggle touchpad
+super + Delete
+    touchtoggle.sh
+
 #
 # bspwm hotkeys
 #

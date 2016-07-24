@@ -1,4 +1,4 @@
-#include "/home/spinks/colours/snow"
+#include "/home/lemons/colours/mickey"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -9,8 +9,7 @@ Xft.antialias: 1
 Xft.rgba: rgb
 
 
-*.font:         -*-yuki-*-*-*-*-*-*-*-*-*-*-*-*
-*.boldFont:         -*-yuki-*-*-*-*-*-*-*-*-*-*-*-*
+*.font:         xft:terminus:size=9
 
 !urxvt.letterSpace: -2
 

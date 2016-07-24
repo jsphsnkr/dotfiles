@@ -72,16 +72,22 @@ super + q
     killw $(pfw)
 
 # move windows around
-alt + {h,j,k,l}
+alt + super + {h,j,k,l}
     wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
 
 # snap to corners
-alt + {y,u,b,n,g,c,m}
+alt + super + {y,u,b,n,g,c,m}
     corner.sh {tl,tr,bl,br,md,mm,mx} $(pfw)
 
 # resize windows
-alt + shift + {h,j,k,l}
+alt + super + shift + {h,j,k,l}
     wrs {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+
+alt + {y,k,u,h,g,l,b,j,n}
+    nyntyl.sh th {tl,tm,tr,ml,mm,mr,bl,bm,br}
+
+alt + shift + {h,j,k,l}
+    nyntyl.sh rs {h,j,k,l}
 
 # cycle windows
 super + Tab
