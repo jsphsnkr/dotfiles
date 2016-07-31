@@ -20,35 +20,19 @@ super + Print
 
 # take a shot of focused window
 super + p
-    scrot -u -b
+    scrot -u -b $HOME/img/scrot/scrot.png
 
-# next track
-super + 0
-    murphy +
+# music control
+super + {8,9,0}
+    murphy {-,=,+}
 
-# prev track
-super + 8
-    murphy -
+# vol control
+super + {minus,equal}
+    libby {-,+}
 
-# toggle play
-super + 9
-    murphy =
-
-# volup
-super + equal
-    libby +
-
-# voldn
-super + minus
-    libby -
-
-# brightness up
-XF86MonBrightnessUp
-    xbacklight +20
-
-# brightness dn
-XF86MonBrightnessDown
-    xbacklight -20
+# brightness control
+XF86MonBrightness{Down,Up}
+    xbacklight {-20,20}
 
 # now plauing popup
 super + BackSpace
@@ -138,9 +122,9 @@ alt + shift + {h,j,k,l}
 alt + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-# snap to corners etc (req. wmutils!)
-alt + {y,u,b,n,g,c,m}
-    corner.sh {tl,tr,bl,br,md,mm,mx}
+# venam mode
+alt + space
+    terrapin mm
 
 # adjust gap size
 alt + {minus,equal}

@@ -1,12 +1,12 @@
 colorscheme delek
-set t_Co=16                 " limit vim to 16 colours
+set t_Co=5                  " limit vim to 16 colours
 
 syntax enable               " enable syntax highlighting
 
 set tabstop=4               " number of visual spaces per TAB
 set shiftwidth=4
 set softtabstop=4           " number of spaces in tab when editing
-set expandtab               " tabs = spaces
+"set expandtab               " tabs = spaces
 set smarttab
 set autoindent
 

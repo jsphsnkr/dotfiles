@@ -11,7 +11,7 @@ bspc monitor -d I II III IV
 #
 
 bspc config border_width            4
-bspc config window_gap              20
+bspc config window_gap              40
 
 bspc config normal_border_color     "#$fg"
 bspc config focused_border_color    "#$blu"

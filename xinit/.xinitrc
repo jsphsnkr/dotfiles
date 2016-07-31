@@ -23,6 +23,9 @@ xsetroot -cursor_name left_ptr &
 # enable pcmanfm daemon (automounting)
 pcmanfm -d &
 
-# start window manager
-exec bspwm
+szyslak &
+homer &
 
+# start window manager
+2bwm &
+exec xwait
