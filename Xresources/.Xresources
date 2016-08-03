@@ -1,4 +1,4 @@
-#include "/home/lemons/colours/citrus"
+#include "/home/lemons/colours/mono"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -8,8 +8,11 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
+! st bits
+st.borderpx:	4
 
-*.font:             -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+
+*.font:             -*-drift-*-*-*-*-*-*-*-*-*-*-*-*
 *.boldFont:
 
 urxvt.scrollBar:	false

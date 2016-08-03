@@ -26,6 +26,9 @@ pcmanfm -d &
 szyslak &
 homer &
 
+focus_watcher.sh &
+sxhkd &
+
 # start window manager
-2bwm &
+#2bwm &
 exec xwait

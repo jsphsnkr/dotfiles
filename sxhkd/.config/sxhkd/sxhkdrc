@@ -1,18 +1,14 @@
 #
-# wm independent hotkeys
+# sxhkdrc
 #
 
 # kill X
-super + shift + q
+super + shift + e
     killx
 
-# terminal emulator
-super + Return
-	urxvt
-
-# program launcher
-super + space
-    dmenu_wrapper
+# launch progs
+super + {Return,w}
+	{urxvt,dmenu_wrapper}
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -20,82 +16,39 @@ super + Escape
 
 # take a screenshot
 super + Print
-    scrot
+    rubberband
 
-# take shot of focused window
-super + p
-    scrot -u -b
+# cmus control
+super + {equal,minus,BackSpace}
+    murphy {+,-,=}
 
-# now playing popup (cmus)
-super + n
-    poppy $(murphy)
+# vol control
+super + shift + {equal,minus}
+    libby {+,-}
 
-# next track
-super + 0
-    murphy +
-
-# prev track
-super + 8
-    murphy -
-
-# pause/play
-super + 9
-    murphy =
-
-# volup
-super + equal
-    libby +
-
-# voldn
-super + minus
-    libby -
-
-# brightness up
-XF86MonBrightnessUp
-    xbacklight +20
-
-# brightness down
-XF86MonBrightnessDown
-    xbacklight -20
-
-# clock popup
-super + BackSpace
-    poppy $(date '+%a %H:%M')
-
-
-#
-# wmutils
-#
+# brightness control
+XF86MonBrightness{Up,Down}
+    xbacklight {+20,-20}
 
 # kill active window
-super + q
+super + shift + q
     killw $(pfw)
 
 # move windows around
-alt + super + {h,j,k,l}
+super + {h,j,k,l}
     wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
 
 # snap to corners
-alt + super + {y,u,b,n,g,c,m}
+super + {y,u,b,n,g,c,m}
     corner.sh {tl,tr,bl,br,md,mm,mx} $(pfw)
 
 # resize windows
-alt + super + shift + {h,j,k,l}
+super + shift + {h,j,k,l}
     wrs {-20 0, 0 20, 0 -20, 20 0} $(pfw)
-
-alt + {y,k,u,h,g,l,b,j,n}
-    nyntyl.sh th {tl,tm,tr,ml,mm,mr,bl,bm,br}
-
-alt + shift + {h,j,k,l}
-    nyntyl.sh rs {h,j,k,l}
 
 # cycle windows
 super + Tab
     focus.sh next
-
-# focus closest window in specified direction
-super + {h,j,k,l}
-    closest.sh {h,j,k,l}
 
 # add window to group
 super + shift + {1,2,3,4}
@@ -109,11 +62,6 @@ super + {1,2,3,4}
 super + slash
     groups.sh -c $(pfw) all
 
-# toggle fullscreen of active window
-super + f
-    fullscreen.sh $(pfw)
-
 # tile ala dwm, arg is %screenwidth of master
-alt + control + {1,2,3,4,5,6,7,8,9}
+super + control + {1,2,3,4,5,6,7,8,9}
     atile.sh {10,20,30,40,50,60,70,80,90}
-    
