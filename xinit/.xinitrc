@@ -14,8 +14,9 @@ xrdb -load $HOME/.Xresources
 synclient tapButton1=1
 
 # set wallpaper
-. $HOME/.wp
-feh --bg-scale $wp
+#. $HOME/.wp
+#feh --bg-scale $wp
+xsetroot -solid "#222222"
 
 # set prettier cursor
 xsetroot -cursor_name left_ptr &
@@ -26,7 +27,7 @@ pcmanfm -d &
 szyslak &
 homer &
 
-focus_watcher.sh &
+weh.sh &
 sxhkd &
 
 # start window manager

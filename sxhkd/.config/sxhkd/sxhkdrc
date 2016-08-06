@@ -39,8 +39,8 @@ super + {h,j,k,l}
     wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
 
 # snap to corners
-super + {y,u,b,n,g,c,m}
-    corner.sh {tl,tr,bl,br,md,mm,mx} $(pfw)
+super + {y,u,b,n,g,c,m,z,x}
+    snaps.sh {tl,tr,bl,br,md,mm,mx,vx,hx} $(pfw)
 
 # resize windows
 super + shift + {h,j,k,l}
@@ -52,16 +52,24 @@ super + Tab
 
 # add window to group
 super + shift + {1,2,3,4}
-    groups.sh -s $(pfw) {1,2,3,4}
+    grump.sh -d all; \
+	grump.sh -a {1,2,3,4}
 
 # toggle group visibility
 super + {1,2,3,4}
-    groups.sh -t {1,2,3,4}
+    grump.sh -t {1,2,3,4}
 
 # remove window from all groups
 super + slash
-    groups.sh -c $(pfw) all
+    grump.sh -d all
 
 # tile ala dwm, arg is %screenwidth of master
 super + control + {1,2,3,4,5,6,7,8,9}
     atile.sh {10,20,30,40,50,60,70,80,90}
+
+# nyntyl binds
+alt + {h,j,k,l,g,y,u,b,n}
+	nyntyl.sh th {ml,bm,tm,mr,mm,tl,tr,bl,br}
+
+alt + shift + {h,j,k,l}
+	nyntyl.sh rs {h,j,k,l}
