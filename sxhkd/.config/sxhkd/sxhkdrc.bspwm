@@ -23,24 +23,16 @@ super + p
     scrot -u -b $HOME/img/scrot/scrot.png
 
 # music control
-super + {8,9,0}
+super + {minus,BackSpace,equal}
     murphy {-,=,+}
 
 # vol control
-super + {minus,equal}
+super + shift + {minus,equal}
     libby {-,+}
 
 # brightness control
 XF86MonBrightness{Down,Up}
     xbacklight {-20,20}
-
-# now plauing popup
-super + BackSpace
-    poppy $(murphy)
-
-# toggle touchpad
-super + Delete
-    touchtoggle.sh
 
 #
 # bspwm hotkeys
