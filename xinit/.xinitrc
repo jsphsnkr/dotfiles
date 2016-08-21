@@ -16,7 +16,7 @@ synclient tapButton1=1
 # set wallpaper
 #. $HOME/.wp
 #feh --bg-scale $wp
-xsetroot -solid "#222222"
+xsetroot -solid "#dddddd"
 
 # set prettier cursor
 xsetroot -cursor_name left_ptr &
