@@ -12,7 +12,6 @@ set autoindent
 
 set number                  " enable line numbers
 set showcmd                 " show command in statusline
-"set cursorline              " highlight line under cursor
 
 filetype indent on          " load filetype indent files
 set wildmenu                " enable visual autocomplete in commands
@@ -26,3 +25,5 @@ set lazyredraw              " stop all the redrawin'
 " move vertically by wrapped line
 nnoremap j gj
 nnoremap k gk
+
+let g:is_posix = 1			" fix non-POSIX syntax highlighting for dash

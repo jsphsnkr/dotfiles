@@ -36,7 +36,7 @@ super + shift + q
 
 # move windows around
 super + {h,j,k,l}
-    wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+    wmv {-40 0, 0 40, 0 -40, 40 0} $(pfw)
 
 # snap to corners
 super + {y,u,b,n,g,c,m,z,x}
@@ -44,7 +44,7 @@ super + {y,u,b,n,g,c,m,z,x}
 
 # resize windows
 super + shift + {h,j,k,l}
-    wrs {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+    wrs {-40 0, 0 40, 0 -40, 40 0} $(pfw)
 
 # cycle windows
 super + Tab
@@ -68,8 +68,8 @@ super + alt + {1,2,3,4,5,6,7,8,9}
     atile.sh {10,20,30,40,50,60,70,80,90}
 
 # nyntyl binds
-#alt + {h,j,k,l,g,y,u,b,n}
-#	nyntyl.sh th {ml,bm,tm,mr,mm,tl,tr,bl,br}
+alt + {h,j,k,l,g,y,u,b,n}
+	nyntyl.sh th {ml,bm,tm,mr,mm,tl,tr,bl,br}
 
-#alt + shift + {h,j,k,l}
-#	nyntyl.sh rs {h,j,k,l}
+alt + shift + {h,j,k,l}
+	nyntyl.sh rs {h,j,k,l}

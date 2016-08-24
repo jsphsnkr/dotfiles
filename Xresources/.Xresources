@@ -20,9 +20,9 @@ st.borderpx:	4
 
 
 !*.font:             -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
-*.font:				xft:roboto mono:size=9:antialias=true:hinting=true
+*.font:				xft:dejavu sans mono:size=9:antialias=true:hinting=true
 *.boldFont:
-urxvt.letterSpace: -1
+urxvt.letterSpace: -2
 
 urxvt.scrollBar:	false
 
