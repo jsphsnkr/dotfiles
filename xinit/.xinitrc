@@ -14,10 +14,8 @@ xrdb -load $HOME/.Xresources
 synclient tapButton1=1
 
 # set wallpaper
-#. $HOME/.wp
-#feh --bg-scale $wp
-#xsetroot -solid "#dddddd"
-feh --bg-tile $HOME/img/wp/tiles/ignasi_pattern_s.png
+. $HOME/.wp
+feh --bg-scale $wp
 
 # set prettier cursor
 xsetroot -cursor_name left_ptr &
@@ -25,11 +23,10 @@ xsetroot -cursor_name left_ptr &
 # enable pcmanfm daemon (automounting)
 pcmanfm -d &
 
-szyslak &
+smolbar &
 homer &
 
-weh.sh &
 sxhkd &
+weh.sh &
 
-# start window manager
 exec xwait

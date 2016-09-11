@@ -19,10 +19,10 @@ Xft.lcdfilter:  lcddefault
 st.borderpx:	4
 
 
-!*.font:             -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
-*.font:				xft:dejavu sans mono:size=9:antialias=true:hinting=true
+*.font:             -*-metis-*-*-*-*-*-*-*-*-*-*-*-*
+!*.font:				xft:dejavusansmono:size=9:antialias=true:hinting=true
 *.boldFont:
-urxvt.letterSpace: -2
+!urxvt.letterSpace: -2
 
 urxvt.scrollBar:	false
 

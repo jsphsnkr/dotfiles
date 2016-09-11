@@ -7,8 +7,8 @@ super + shift + e
     killx
 
 # launch progs
-super + {Return,w}
-	{urxvt,dmenu_wrapper}
+super + {Return,w,r}
+	{urxvt,dmenu_wrapper,razz}
 
 # make sxhkd reload its configuration files:
 super + Escape
