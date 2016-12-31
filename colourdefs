@@ -1,0 +1,7 @@
+#!/bin/sh
+
+bg="#383c4a"
+nf="#999999"
+sf="#e8e8ea"
+
+fnt="terminus(ttf):size=9"

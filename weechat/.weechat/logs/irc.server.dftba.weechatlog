@@ -1,0 +1,144 @@
+2016-12-29 11:51:13	 - 	irc: connecting to server irc.dftba.net/6667...
+2016-12-29 11:51:13	 - 	irc: connected to irc.dftba.net/6667 (76.74.177.239)
+2016-12-29 11:51:13	 - 	ftl.na.dftba.net: *** Looking up your hostname...
+2016-12-29 11:51:13	 - 	ftl.na.dftba.net: *** Couldn't resolve your hostname; using your IP address instead
+2016-12-29 11:51:13	 - 	Welcome to the Nerdfighteria IRC IRC Network spinks!lemons@95.147.224.88
+2016-12-29 11:51:13	 - 	Your host is ftl.na.dftba.net, running version Unreal3.2.9
+2016-12-29 11:51:13	 - 	This server was created Sun Apr 29 2012 at 20:04:22 EDT
+2016-12-29 11:51:13	 - 	ftl.na.dftba.net Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2016-12-29 11:51:13	 - 	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=30 CHANLIMIT=#:30 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2016-12-29 11:51:13	 - 	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Nerdfighteria-IRC CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT :are supported by this server
+2016-12-29 11:51:13	 - 	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2016-12-29 11:51:13	 - 	There are 11 users and 38 invisible on 2 servers
+2016-12-29 11:51:13	 - 	9 :operator(s) online
+2016-12-29 11:51:13	 - 	23 :channels formed
+2016-12-29 11:51:13	 - 	I have 38 clients and 1 servers
+2016-12-29 11:51:13	 - 	Current Local Users: 38  Max: 58
+2016-12-29 11:51:13	 - 	Current Global Users: 49  Max: 130
+2016-12-29 11:51:13	 - 	- ftl.na.dftba.net Message of the Day -
+2016-12-29 11:51:13	 - 	- 29/4/2012 20:17
+2016-12-29 11:51:13	 - 	-       _____  ______ _______ ____
+2016-12-29 11:51:13	 - 	-      |  __ \|  ____|__   __|  _ \   /\
+2016-12-29 11:51:13	 - 	-      | |  | | |__     | |  | |_) | /  \
+2016-12-29 11:51:13	 - 	-      | |  | |  __|    | |  |  _ < / /\ \
+2016-12-29 11:51:13	 - 	-      | |__| | |       | |  | |_) / ____ \
+2016-12-29 11:51:13	 - 	-      |_____/|_|       |_|  |____/_/    \_\
+2016-12-29 11:51:13	 - 	-
+2016-12-29 11:51:13	 - 	- Welcome to Nerdfighteria Network's IRC Network.
+2016-12-29 11:51:13	 - 	-
+2016-12-29 11:51:13	 - 	-  +--------------+------------------------------+
+2016-12-29 11:51:13	 - 	-  | Server       | ftl.na                  IPv4 |
+2016-12-29 11:51:13	 - 	-  +--------------+------------------------------+
+2016-12-29 11:51:13	 - 	-  | Ports        | 6667 (Non-SSL)               |
+2016-12-29 11:51:13	 - 	-  |              | 6697 (SSL)                   |
+2016-12-29 11:51:13	 - 	-  +--------------+------------------------------+
+2016-12-29 11:51:13	 - 	-  | Location     | LA, CA, USA                  |
+2016-12-29 11:51:13	 - 	-  +--------------+------------------------------+
+2016-12-29 11:51:13	 - 	-  | Server Admin | Embolal  ia                  |
+2016-12-29 11:51:13	 - 	-  |              | epowell [at] staff.dftba.net |
+2016-12-29 11:51:13	 - 	-  +--------------+------------------------------+
+2016-12-29 11:51:13	 - 	-
+2016-12-29 11:51:13	 - 	-  Before continuing, read the Nerdfighteria Network Terms of
+2016-12-29 11:51:13	 - 	- Service at http://www.dftba.net/tos
+2016-12-29 11:51:13	 - 	-
+2016-12-29 11:51:13	 - 	-  By connecting and retaining a connection to any
+2016-12-29 11:51:13	 - 	- part of Nerdfighteria Network you state that you have
+2016-12-29 11:51:13	 - 	- read, understand, and hereby agree to comply with and accept
+2016-12-29 11:51:13	 - 	- the Nerdfighteria Network Terms Of Service, disclaimers,
+2016-12-29 11:51:13	 - 	- and rules. IF YOU DO NOT AGREE, DISCONNECT NOW AND DO NOT
+2016-12-29 11:51:13	 - 	- RECONNECT!
+2016-12-29 11:51:13	 - 	-
+2016-12-29 11:51:13	 - 	-  The Nerdfighteria Network IRC Network employs the use of the
+2016-12-29 11:51:13	 - 	- Blitzed Open Proxy Monitor ("BOPM"). By making use of our
+2016-12-29 11:51:14	 - 	- services, you agree that we may scan your IP adress for
+2016-12-29 11:51:14	 - 	- potentially dangerous open-proxy servers. This will not harm
+2016-12-29 11:51:14	 - 	- your computer; it is only intended as a safeguard against
+2016-12-29 11:51:14	 - 	- malicious users misusing another's Internet connection. This
+2016-12-29 11:51:14	 - 	- could, however, set off an alert with your firewall software.
+2016-12-29 11:51:14	 - 	- If you receive a notice about port scanning please ignore it
+2016-12-29 11:51:14	 - 	- and/or allow the action to take place through your firewall.
+2016-12-29 11:51:14	 - 	-
+2016-12-29 11:51:14	 - 	- Important Channels:
+2016-12-29 11:51:14	 - 	- - #YourPants - Main discussion channel. (General Chat)
+2016-12-29 11:51:14	 - 	- - #help - Network (IRCOp) Support channel.
+2016-12-29 11:51:14	 - 	-
+2016-12-29 11:51:14	 - 	- To see all public channels, type /list.
+2016-12-29 11:51:14	 - 	-
+2016-12-29 11:51:14	 - 	- Happy chatting and don't forget to be awesome!
+2016-12-29 11:51:14	 - 	-
+2016-12-29 11:51:14	 - 	-                    **END OF MOTD**
+2016-12-29 11:51:14	 - 	-
+2016-12-29 11:51:14	 - 	End of /MOTD command.
+2016-12-29 11:51:14	 - 	User mode [+iwx] by spinks
+2016-12-29 11:52:59	 - 	irc: connecting to server irc.dftba.net/6667...
+2016-12-29 11:52:59	 - 	irc: connected to irc.dftba.net/6667 (76.74.177.239)
+2016-12-29 11:52:59	 - 	ftl.na.dftba.net: *** Looking up your hostname...
+2016-12-29 11:52:59	 - 	ftl.na.dftba.net: *** Couldn't resolve your hostname; using your IP address instead
+2016-12-29 11:53:00	 - 	Welcome to the Nerdfighteria IRC IRC Network spinks!lemons@95.147.224.88
+2016-12-29 11:53:00	 - 	Your host is ftl.na.dftba.net, running version Unreal3.2.9
+2016-12-29 11:53:00	 - 	This server was created Sun Apr 29 2012 at 20:04:22 EDT
+2016-12-29 11:53:00	 - 	ftl.na.dftba.net Unreal3.2.9 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2016-12-29 11:53:00	 - 	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=30 CHANLIMIT=#:30 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2016-12-29 11:53:00	 - 	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Nerdfighteria-IRC CASEMAPPING=ascii EXTBAN=~,qjncrR ELIST=MNUCT :are supported by this server
+2016-12-29 11:53:00	 - 	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2016-12-29 11:53:00	 - 	There are 11 users and 38 invisible on 2 servers
+2016-12-29 11:53:00	 - 	9 :operator(s) online
+2016-12-29 11:53:00	 - 	23 :channels formed
+2016-12-29 11:53:00	 - 	I have 38 clients and 1 servers
+2016-12-29 11:53:00	 - 	Current Local Users: 38  Max: 58
+2016-12-29 11:53:00	 - 	Current Global Users: 49  Max: 130
+2016-12-29 11:53:00	 - 	- ftl.na.dftba.net Message of the Day -
+2016-12-29 11:53:00	 - 	- 29/4/2012 20:17
+2016-12-29 11:53:00	 - 	-       _____  ______ _______ ____
+2016-12-29 11:53:00	 - 	-      |  __ \|  ____|__   __|  _ \   /\
+2016-12-29 11:53:00	 - 	-      | |  | | |__     | |  | |_) | /  \
+2016-12-29 11:53:00	 - 	-      | |  | |  __|    | |  |  _ < / /\ \
+2016-12-29 11:53:00	 - 	-      | |__| | |       | |  | |_) / ____ \
+2016-12-29 11:53:00	 - 	-      |_____/|_|       |_|  |____/_/    \_\
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	- Welcome to Nerdfighteria Network's IRC Network.
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	-  +--------------+------------------------------+
+2016-12-29 11:53:00	 - 	-  | Server       | ftl.na                  IPv4 |
+2016-12-29 11:53:00	 - 	-  +--------------+------------------------------+
+2016-12-29 11:53:00	 - 	-  | Ports        | 6667 (Non-SSL)               |
+2016-12-29 11:53:00	 - 	-  |              | 6697 (SSL)                   |
+2016-12-29 11:53:00	 - 	-  +--------------+------------------------------+
+2016-12-29 11:53:00	 - 	-  | Location     | LA, CA, USA                  |
+2016-12-29 11:53:00	 - 	-  +--------------+------------------------------+
+2016-12-29 11:53:00	 - 	-  | Server Admin | Embolal  ia                  |
+2016-12-29 11:53:00	 - 	-  |              | epowell [at] staff.dftba.net |
+2016-12-29 11:53:00	 - 	-  +--------------+------------------------------+
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	-  Before continuing, read the Nerdfighteria Network Terms of
+2016-12-29 11:53:00	 - 	- Service at http://www.dftba.net/tos
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	-  By connecting and retaining a connection to any
+2016-12-29 11:53:00	 - 	- part of Nerdfighteria Network you state that you have
+2016-12-29 11:53:00	 - 	- read, understand, and hereby agree to comply with and accept
+2016-12-29 11:53:00	 - 	- the Nerdfighteria Network Terms Of Service, disclaimers,
+2016-12-29 11:53:00	 - 	- and rules. IF YOU DO NOT AGREE, DISCONNECT NOW AND DO NOT
+2016-12-29 11:53:00	 - 	- RECONNECT!
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	-  The Nerdfighteria Network IRC Network employs the use of the
+2016-12-29 11:53:00	 - 	- Blitzed Open Proxy Monitor ("BOPM"). By making use of our
+2016-12-29 11:53:00	 - 	- services, you agree that we may scan your IP adress for
+2016-12-29 11:53:00	 - 	- potentially dangerous open-proxy servers. This will not harm
+2016-12-29 11:53:00	 - 	- your computer; it is only intended as a safeguard against
+2016-12-29 11:53:00	 - 	- malicious users misusing another's Internet connection. This
+2016-12-29 11:53:00	 - 	- could, however, set off an alert with your firewall software.
+2016-12-29 11:53:00	 - 	- If you receive a notice about port scanning please ignore it
+2016-12-29 11:53:00	 - 	- and/or allow the action to take place through your firewall.
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	- Important Channels:
+2016-12-29 11:53:00	 - 	- - #YourPants - Main discussion channel. (General Chat)
+2016-12-29 11:53:00	 - 	- - #help - Network (IRCOp) Support channel.
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	- To see all public channels, type /list.
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	- Happy chatting and don't forget to be awesome!
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	-                    **END OF MOTD**
+2016-12-29 11:53:00	 - 	-
+2016-12-29 11:53:00	 - 	End of /MOTD command.
+2016-12-29 11:53:00	 - 	User mode [+iwx] by spinks

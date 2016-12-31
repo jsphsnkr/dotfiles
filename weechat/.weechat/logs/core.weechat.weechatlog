@@ -1,0 +1,46 @@
+2016-12-29 11:41:58		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-12-29 11:42:56		irc: server freenode added
+2016-12-29 11:43:48		Option changed: irc.server.freenode.nicks = "spinks,elspinks,spinks_"  (default if null: "lemons,lemons1,lemons2,lemons3,lemons4")
+2016-12-29 11:44:05		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2016-12-29 11:44:51		Option changed: irc.server.freenode.autojoin = "#solus,#solus-chat,#linuxvoice"  (default if null: "")
+2016-12-29 11:45:31		script: downloading list of scripts...
+2016-12-29 11:45:32		script: 328 scripts for WeeChat 1.6
+2016-12-29 11:45:32		perl: loading script "/home/lemons/dotfiles/weechat/.weechat/perl/buffers.pl"
+2016-12-29 11:45:32		perl: registered script "buffers", version 5.4 (Sidebar with list of buffers)
+2016-12-29 11:46:17		irc: server dftba added
+2016-12-29 11:47:04		Option changed: irc.server.dftba.nicks = "spinks,elspinks,spinks_"  (default if null: "lemons,lemons1,lemons2,lemons3,lemons4")
+2016-12-29 11:47:26		Option changed: irc.server.dftba.autoconnect = on  (default if null: off)
+2016-12-29 11:48:06		Option changed: irc.server.dftba.autojoin = "#YourPants"  (default if null: "")
+2016-12-29 11:48:16		irc: server unix added
+2016-12-29 11:48:59		Option changed: irc.server.unix.nicks = "lemons,lemons__,lmns"  (default if null: "lemons,lemons1,lemons2,lemons3,lemons4")
+2016-12-29 11:50:54		Option changed: irc.server.unix.command = "/msg nickserv identify r1c3r0n1"  (default if null: "")
+2016-12-29 11:51:13		perl scripts loaded: buffers
+2016-12-29 11:51:13		script: 328 scripts for WeeChat 1.6
+2016-12-29 11:51:13		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-12-29 11:52:43		Option changed: irc.server.unix.autoconnect = on  (default if null: off)
+2016-12-29 11:52:54		Option changed: irc.server.unix.autojoin = "#unix"  (default if null: "")
+2016-12-29 11:52:59		perl scripts loaded: buffers
+2016-12-29 11:52:59		script: 328 scripts for WeeChat 1.6
+2016-12-29 11:52:59		Plugins loaded: alias, charset, exec, fifo, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-12-29 11:53:29	 !!! 	Error: unknown command "/iset" (type /help for help)
+2016-12-29 11:53:37		perl: loading script "/home/lemons/dotfiles/weechat/.weechat/perl/iset.pl"
+2016-12-29 11:53:37		perl: registered script "iset", version 4.2 (Interactive Set for configuration options)
+2016-12-29 11:54:03		Option changed: buffers.color.current_bg = default  (default: red)
+2016-12-29 11:54:25		Option changed: buffers.color.current_fg = default  (default: lightcyan)
+2016-12-29 11:54:44		Option changed: buffers.color.current_fg = black  (default: lightcyan)
+2016-12-29 11:54:54		Option changed: buffers.color.current_fg = yellow  (default: lightcyan)
+2016-12-29 11:56:26		Option changed: buffers.color.default_fg = gray  (default: default)
+2016-12-29 11:58:16		Option changed: buffers.color.number = gray  (default: lightgreen)
+2016-12-29 11:59:36		Option changed: buffers.color.hotlist_message_fg = black  (default: yellow)
+2016-12-29 12:01:13		Option changed: iset.color.bg_selected = default  (default: red)
+2016-12-29 12:01:23		Option changed: iset.color.bg_selected = gray  (default: red)
+2016-12-29 12:01:29	 !!! 	Error: failed to set option "iset.color.bg_selected"
+2016-12-29 12:01:34	 !!! 	Error: failed to set option "iset.color.bg_selected"
+2016-12-29 12:01:46	 !!! 	Error: failed to set option "iset.color.bg_selected"
+2016-12-29 12:02:02		Option changed: iset.color.bg_selected = cyan  (default: red)
+2016-12-29 12:02:19		Option changed: iset.color.bg_selected = green  (default: red)
+2016-12-29 12:02:56		Option changed: iset.color.bg_selected = gray  (default: red)
+2016-12-29 12:04:12		Option changed: weechat.bar.input.items = "  >,input_text "  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2016-12-29 12:05:00		Option changed: weechat.bar.input.color_delim = default  (default: red)
+2016-12-29 12:05:07		Option changed: weechat.bar.input.color_delim = gray  (default: red)
+2016-12-29 12:05:12		Option changed: weechat.bar.input.color_delim = red

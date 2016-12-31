@@ -1,26 +1,15 @@
 #include "/home/lemons/colours/paper"
 
-!Xft.dpi: 96
-!Xft.autohint: 0
-!Xft.lcdfilter:  lcddefault
-!Xft.hintstyle:  hintslight
-!Xft.hinting: 1
-!Xft.antialias: 1
-!Xft.rgba: rgb
-
-Xft.dpi:        96:unscaled
-Xft.antialias:  true
-Xft.rgba:       rgb
-Xft.hinting:    true
-Xft.hintstyle:  hintmedium
+Xft.dpi: 96
+Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
-! st bits
-st.borderpx:	4
-
-
-*.font:             -*-metis-*-*-*-*-*-*-*-*-*-*-*-*
-!*.font:				xft:dejavusansmono:size=9:antialias=true:hinting=true
+*.font:             -*-fixed-*-*-*-*-*-*-*-*-*-*-*-*
+!*.font:				xft:hack:size=9:antialias=true:hinting=true
 *.boldFont:
 !urxvt.letterSpace: -2
 

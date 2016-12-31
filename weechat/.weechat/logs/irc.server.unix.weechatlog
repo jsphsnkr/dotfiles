@@ -1,0 +1,45 @@
+2016-12-29 11:52:59	 - 	irc: connecting to server unix.chat/6667...
+2016-12-29 11:52:59	 - 	irc: connected to unix.chat/6667 (178.62.240.114)
+2016-12-29 11:52:59	 - 	unix.chat: *** Looking up your hostname...
+2016-12-29 11:52:59	 - 	unix.chat: *** Checking ident...
+2016-12-29 11:52:59	 - 	unix.chat: *** Couldn't resolve your hostname; using your IP address instead
+2016-12-29 11:53:03	 - 	unix.chat: *** No ident response; username prefixed with ~
+2016-12-29 11:53:03	 - 	CTCP requested by IRC: VERSION
+2016-12-29 11:53:03	 - 	CTCP reply to IRC: VERSION WeeChat 1.6 (Oct  3 2016)
+2016-12-29 11:53:03	 - 	Welcome to the unix.chat IRC Network lemons!~lemons@95.147.224.88
+2016-12-29 11:53:03	 - 	MSG(nickserv): identify ********
+2016-12-29 11:53:03	 - 	Your host is unix.chat, running version UnrealIRCd-4.0.6
+2016-12-29 11:53:03	 - 	This server was created Mon Sep 5 2016 at 22:54:21 CEST
+2016-12-29 11:53:03	 - 	unix.chat UnrealIRCd-4.0.6 iowrsxzdHtIRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2016-12-29 11:53:03	 - 	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2016-12-29 11:53:03	 - 	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2016-12-29 11:53:03	 - 	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2016-12-29 11:53:03	 - 	79E4F50A.CD8EC52E.8385FE22.IP :is now your displayed host
+2016-12-29 11:53:03	 - 	There are 1 users and 83 invisible on 2 servers
+2016-12-29 11:53:03	 - 	8 :operator(s) online
+2016-12-29 11:53:03	 - 	6 :channels formed
+2016-12-29 11:53:03	 - 	I have 77 clients and 1 servers
+2016-12-29 11:53:03	 - 	77 89 :Current local users 77, max 89
+2016-12-29 11:53:03	 - 	84 97 :Current global users 84, max 97
+2016-12-29 11:53:03	 - 	- unix.chat Message of the Day -
+2016-12-29 11:53:03	 - 	- 16/9/2016 23:14
+2016-12-29 11:53:03	 - 	-            ⠰⠶              ⣶⡆        ⣶⡆
+2016-12-29 11:53:03	 - 	- ⣿⡇⢸⣿ ⣿⡷⢿⣷ ⠛⢻⣿  ⢿⣄⣠⡿   ⣰⡿⠛⠷ ⣿⡷⢿⣷ ⠾⠟⣻⡆⠘⣿⡟⠛⠛
+2016-12-29 11:53:03	 - 	- ⣿⡇⢸⣿ ⣿⡇⢸⣿  ⢸⣿  ⣠⡿⢿⣄   ⣿⣇ ⣀ ⣿⡇⢸⣿ ⣾⠛⣹⡇ ⣿⡇ ⣀
+2016-12-29 11:53:03	 - 	- ⠙⠛⠙⠛ ⠛⠃⠘⠛ ⠛⠛⠛⠛ ⠛  ⠛ ⠛ ⠈⠛⠛⠋ ⠛⠃⠘⠛ ⠙⠛⠙⠃ ⠈⠛⠛⠉
+2016-12-29 11:53:03	 - 	-
+2016-12-29 11:53:03	 - 	- SSL on port 6697 for the paranoid
+2016-12-29 11:53:03	 - 	-
+2016-12-29 11:53:03	 - 	- RULES:
+2016-12-29 11:53:03	 - 	-  * No abuse (clones, proxies, flooding, spam, and mass advertising)
+2016-12-29 11:53:03	 - 	-  * No harassment, threats, or impersonation of other users
+2016-12-29 11:53:03	 - 	-  * You mess with the fro, you gotta go!
+2016-12-29 11:53:03	 - 	-
+2016-12-29 11:53:03	 - 	- We reserve the right to deny service to ANYONE for ANY REASON at ANY TIME
+2016-12-29 11:53:03	 - 	End of /MOTD command.
+2016-12-29 11:53:03	 - 	User mode [+iwx] by lemons
+2016-12-29 11:53:03	 - 	NickServ (services@services.unix.chat): This nickname is registered and protected.  If it is your
+2016-12-29 11:53:03	 - 	NickServ (services@services.unix.chat): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2016-12-29 11:53:03	 - 	NickServ (services@services.unix.chat): please choose a different nick.
+2016-12-29 11:53:05	 - 	NickServ (services@services.unix.chat): Password accepted - you are now recognized.
+2016-12-29 11:53:05	 - 	User mode [+r] by NickServ

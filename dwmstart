@@ -1,12 +1,10 @@
 #! /bin/bash
 
-synclient tapButton1=1 &
-
-xsetroot -solid "#222222"
-
-#dropbox start &
+./.fehbg
 
 # bar info
-szyslak &
+dwmstatus &
 
-exec dwm
+while :; do
+	dwm 2> ~/.dwm.log
+done
