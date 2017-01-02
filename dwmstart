@@ -1,6 +1,6 @@
 #! /bin/bash
 
-./.fehbg
+xsetroot -solid "#383c4a"
 
 # bar info
 dwmstatus &

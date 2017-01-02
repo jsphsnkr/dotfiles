@@ -1,4 +1,4 @@
-#include "/home/lemons/colours/paper"
+#include "/home/lemons/colours/arc"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -8,10 +8,10 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-*.font:             -*-fixed-*-*-*-*-*-*-*-*-*-*-*-*
-!*.font:				xft:hack:size=9:antialias=true:hinting=true
+!*.font:             -*-fixed-*-*-*-*-*-*-*-*-*-*-*-*
+*.font:				xft:hack:size=9
 *.boldFont:
-!urxvt.letterSpace: -2
+urxvt.letterSpace: -2
 
 urxvt.scrollBar:	false
 
@@ -19,40 +19,42 @@ URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-urxvt.internalBorder: 4
+urxvt.internalBorder: 8
+
+URxvt*iconFile: /usr/share/icons/Numix-Circle/48/apps/gnome-terminal.svg
 
 ! special
 *.foreground:   fg
 *.background:   bg
-*.cursorColor:  blu
+*.cursorColor:  lo
 
 ! black
 *.color0:       bg
 *.color8:       fg
 
 ! red
-*.color1:       red
-*.color9:       red
+*.color1:       hi
+*.color9:       hi
 
 ! green
-*.color2:       grn
-*.color10:      grn
+*.color2:       lo
+*.color10:      lo
 
 ! yellow
-*.color3:       grn
-*.color11:      grn
+*.color3:       lo
+*.color11:      lo
 
 ! blue
-*.color4:       blu
-*.color12:      blu
+*.color4:       md
+*.color12:      md
 
 ! magenta
-*.color5:       blu
-*.color13:      blu
+*.color5:       hi
+*.color13:      hi
 
 ! cyan
-*.color6:       blu
-*.color14:      blu
+*.color6:       md
+*.color14:      md
 
 ! white
 *.color7:       fg
