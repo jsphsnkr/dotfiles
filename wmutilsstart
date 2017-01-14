@@ -1,20 +1,13 @@
 #! /bin/bash
 
-xset fp+ $HOME/.fonts
-xset fp rehash
+sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
 
-. $HOME/.wp
+./.fehbg
 
-sxhkd -c $HOME/.config/sxhkd/sxhkdrc.wmutils &
-
-feh --bg-scale $wp &
+dunst &
 
 homer &
 
-szyslak &
+~/bin/wmu/weh.sh &
 
-focus_watcher.sh &
-
-synclient tapButton1=1 &
-
-exec xwait
+exec ~/bin/xwait

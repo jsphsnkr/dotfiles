@@ -7,8 +7,8 @@ super + shift + e
     killx
 
 # launch progs
-super + {Return,d,r}
-	{st,~/bin/dmenu_wrapper,~/bin/razz}
+super + {Return,w,r}
+	{st,dmenu_wrapper,razz}
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -16,18 +16,18 @@ super + Escape
 
 # take a screenshot
 super + Print
-    ~/bin/rubberband
+    rubberband
 
 super + shift + Print
-	~/bin/rubberband up
+	rubberband up
 
 # cmus control
 super + {equal,minus,BackSpace}
-    ~/bin/murphy {+,-,=}
+    murphy {+,-,=}
 
 # vol control
 super + shift + {equal,minus}
-    ~/bin/libby {+,-}
+    libby {+,-}
 
 # brightness control
 XF86MonBrightness{Up,Down}
@@ -43,7 +43,7 @@ super + {h,j,k,l}
 
 # snap to corners
 super + {y,u,b,n,g,c,m,z,x}
-    ~/bin/wmu/snaps.sh {tl,tr,bl,br,md,mm,mx,vx,hx} $(pfw)
+    snaps.sh {tl,tr,bl,br,md,mm,mx,vx,hx} $(pfw)
 
 # resize windows
 super + shift + {h,j,k,l}
@@ -51,28 +51,28 @@ super + shift + {h,j,k,l}
 
 # cycle windows
 super + Tab
-    ~/bin/wmu/focus.sh next
+    focus.sh next
 
 # add window to group
 super + shift + {1,2,3,4}
-    ~/bin/wmu/grump.sh -d all; \
-	~/bin/wmu/grump.sh -a {1,2,3,4}
+    grump.sh -d all; \
+	grump.sh -a {1,2,3,4}
 
 # toggle group visibility
 super + {1,2,3,4}
-    ~/bin/wmu/grump.sh -t {1,2,3,4}
+    grump.sh -t {1,2,3,4}
 
 # remove window from all groups
 super + slash
-    ~/bin/wmu/grump.sh -d all
+    grump.sh -d all
 
 # tile ala dwm, arg is %screenwidth of master
 super + alt + {1,2,3,4,5,6,7,8,9}
-    ~/bin/wmu/atile.sh {10,20,30,40,50,60,70,80,90}
+    atile.sh {10,20,30,40,50,60,70,80,90}
 
 # nyntyl binds
 alt + {h,j,k,l,g,y,u,b,n}
-	~/bin/wmu/nyntyl.sh th {ml,bm,tm,mr,mm,tl,tr,bl,br}
+	nyntyl.sh th {ml,bm,tm,mr,mm,tl,tr,bl,br}
 
 alt + shift + {h,j,k,l}
-	~/bin/wmu/nyntyl.sh rs {h,j,k,l}
+	nyntyl.sh rs {h,j,k,l}
