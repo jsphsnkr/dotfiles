@@ -4,7 +4,11 @@
 
 # terminal emulator
 super + Return
-	st
+	urxvt
+
+# bar popup thing
+super + p
+	~/bin/emmett
 
 # program launcher
 super + d
@@ -31,8 +35,8 @@ super + {minus,BackSpace,equal}
     ~/bin/murphy {-,=,+}
 
 # vol control
-super + shift + {minus,equal}
-    ~/bin/libby {-,+}
+XF86Audio{LowerVolume,RaiseVolume,Mute}
+    ~/bin/libby {-,+,!}
 
 # brightness control
 XF86MonBrightness{Down,Up}

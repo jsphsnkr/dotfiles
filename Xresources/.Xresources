@@ -1,4 +1,4 @@
-#include "/home/lemons/colours/arc"
+#include "/home/spinks/colours/snowblind"
 
 Xft.dpi: 96
 Xft.autohint: 0
@@ -59,3 +59,4 @@ URxvt*iconFile: /usr/share/icons/Numix-Circle/48/apps/gnome-terminal.svg
 ! white
 *.color7:       fg
 *.color15:      fg
+

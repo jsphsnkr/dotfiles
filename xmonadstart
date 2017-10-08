@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Load resources
+xrdb -merge .Xresources
+
+xsetroot -solid "#444444"
+
+xscreensaver -no-splash &
+
+if [ -x /usr/bin/nm-applet ] ; then
+	nm-applet --sm-disable &
+fi
+
+exec xmonad

@@ -2,7 +2,13 @@
 
 sxhkd -c ~/.config/sxhkd/sxhkdrc.bspwm &
 
+xrdb -load .Xresources
+
 /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+redshift &
+
+compton -b &
 
 dunst &
 
@@ -16,7 +22,7 @@ bspc monitor -d I II III IV
 # Appearance
 #
 
-bspc config border_width            2
+bspc config border_width            0
 bspc config window_gap              20
 
 bspc config normal_border_color     "#928374"
